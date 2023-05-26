@@ -1,0 +1,45 @@
+h3{
+  padding-top: 2rem;
+}
+/* table */
+
+.sortable-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table-header {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.table-header:hover {
+  background-color: #f5f5f5;
+}
+
+.table-row {
+  border-bottom: 1px solid #ddd;
+}
+
+.table-data {
+  padding: 10px;
+  text-align: left;
+}
+
+.table-controls {
+  margin: 2rem;
+}
+.filter-buttons {
+  display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: flex-end;
+    align-items: stretch;
+}
+
+input {
+  margin: 0.5rem;
+}

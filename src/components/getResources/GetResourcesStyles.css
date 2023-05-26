@@ -1,0 +1,131 @@
+.resources-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 30px 20px;
+}
+h4 {
+  padding-top: 2rem;
+}
+.resource-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  overflow: hidden;
+  width: 280px;
+  display: flex;
+  flex-direction: row;
+}
+
+.resource-img {
+  height: 140px;
+  object-fit: cover;
+  width: 40%;
+}
+
+.resource-card-body {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.resource-card-title {
+  font-size: 16px;
+  margin: 0;
+}
+
+.resource-card-description {
+  color: #666;
+  font-size: 10px;
+  margin: 10px 0;
+  height: 60px;
+  overflow: hidden;
+}
+
+.resources-wrapper-category {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+@media screen and (max-width: 767px) {
+  .resources-wrapper {
+    padding: 50px 10px;
+  }
+
+  .resource-card {
+    width: calc(50% - 20px);
+    flex-direction: row;
+    margin: 10px;
+  }
+
+  .resource-img {
+    height: 140px;
+    object-fit: cover;
+    width: 40%;
+  }
+
+  .resource-card-body {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+  }
+
+  .resource-card-title {
+    font-size: 14px;
+  }
+
+  .resource-card-description {
+    font-size: 8px;
+    height: 40px;
+  }
+
+  .resources-wrapper-category {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .resource-card {
+    width: calc(100% - 20px);
+    flex-direction: row;
+    margin: 10px;
+  }
+
+  .resource-img {
+    height: 100px;
+    object-fit: cover;
+    width: 40%;
+  }
+
+  .resource-card-body {
+    padding: 10px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .resource-card-title {
+    font-size: 12px;
+  }
+
+  .resource-card-description {
+    font-size: 6px;
+    height: 30px;
+  }
+
+  .resources-wrapper-category {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+}
